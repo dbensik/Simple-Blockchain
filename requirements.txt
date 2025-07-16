@@ -1,2 +1,6 @@
 Flask
 requests
+streamlit
+pyvis
+cryptography
+gunicorn

@@ -1,0 +1,35 @@
+
+# pyproject.toml
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simple-blockchain"
+version = "0.2.0"
+authors = [
+  { name="Your Name", email="you@example.com" },
+]
+description = "A simple, educational blockchain implementation in Python."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Education",
+    "Topic :: Security :: Cryptography",
+    "Framework :: Flask",
+]
+dependencies = [
+    "Flask>=2.0",
+    "requests>=2.20",
+    "cryptography>=41.0",
+    "pyvis>=0.3.2",
+    "streamlit>=1.20",
+    "pandas>=1.5",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/dbensik/Simple-Blockchain"
+"Bug Tracker" = "https://github.com/dbensik/Simple-Blockchain/issues"
